@@ -3,18 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { InicioComponent } from './inicio/inicio.component';
-import { EstadisticasComponent } from './estadisticas/estadisticas.component';
-import { RegistroComponent } from './registro/registro.component';
+import { LoginComponent } from './components/user/login/login.component';
+import { ProfileComponent } from './components/user/profile/profile.component';
+import { RegisterComponent } from './components/user/register/register.component';
+import { NavbarComponent } from './component/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    InicioComponent,
-    EstadisticasComponent,
-    RegistroComponent
+    ProfileComponent,
+    RegisterComponent,
+    NavbarComponent,
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
